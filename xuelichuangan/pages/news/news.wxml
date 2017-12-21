@@ -1,0 +1,18 @@
+<view class="weui-panel weui-panel_access">
+  <view class="weui-media-box weui-media-box_appmsg" wx:for= "{{newsList}}">
+    <view class="weui-media-box__hd">
+
+      <image src="../../images/news/news_1.jpg" style="width:60px;height:60px;vertical-align:top"></image>
+
+
+    </view>
+
+    <view class="weui-media-bo__bd" bindtap="goHref" data-id = "{{item.objectId}}">
+
+      <view class="weui-media-box__bd">
+        <view class="weui-media-box__title" >{{item.title}}</view>
+        <view class="weui-media-box__desc">{{item.description}}</view>
+      </view>
+    </view>
+  </view>
+</view>
