@@ -15,6 +15,7 @@ Page({
   onLoad: function (options) {
     // 开始请求用户的news消息数据
    var news = new News();
+   // 得到消息列表
    var newsListPromise = news.getNewsList();
    newsListPromise.then(res => {
      wx.hideLoading();

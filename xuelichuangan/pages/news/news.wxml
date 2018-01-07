@@ -2,9 +2,7 @@
   <view class="weui-media-box weui-media-box_appmsg" wx:for= "{{newsList}}">
     <view class="weui-media-box__hd">
 
-      <image src="../../images/news/news_1.jpg" style="width:60px;height:60px;vertical-align:top"></image>
-
-
+      <image src="../../images/news/news_1.jpg" style="width:65px;height:49.5px;vertical-align:top"></image>
     </view>
 
     <view class="weui-media-bo__bd" bindtap="goHref" data-id = "{{item.objectId}}">
